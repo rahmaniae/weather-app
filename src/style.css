@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: darkblue;
+  padding: 12px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.search form {
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.more {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
